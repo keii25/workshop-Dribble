@@ -1,0 +1,55 @@
+.contentTask {
+  background: $white-color;
+  padding: 3rem;
+  flex-grow: 3;
+  padding: 10px 16px;
+  text-align: left;
+
+
+  .check {
+    color: $primary-color;
+    margin: 9px; 
+  }
+
+  .menu {
+    padding: 15px;
+    border-bottom: 0.1rem solid rgb(230, 230, 230);
+
+    ul {
+      padding-top: 20px;
+      a {
+        margin: 30px;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .projects {
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;         
+  } 
+
+  .productPlaning {
+    border-bottom: 0.1rem solid rgb(230, 230, 230);
+    margin: 20px;    
+  }
+
+  .projects2 {
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .design {
+    border-bottom: 0.1rem solid rgb(230, 230, 230);
+    margin: 20px;
+  }
+
+  .projects3 {
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+}

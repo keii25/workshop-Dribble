@@ -1,0 +1,56 @@
+.barNavigation {
+    background: $primary-color;
+    flex-grow: 0.2;
+    height: 100vh;
+    padding-top: 0.5rem;
+    color: $white-color;
+    width: 1px;
+    
+    .iconsNavegation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        line-height: 100px;
+        align-items: center;
+        height: inherit;
+
+        .logoNavegation {
+            display: flex;
+            order: 2;
+            flex-grow: 2;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            .logoContainer {
+                width: 30px;
+                padding-bottom: 1rem;
+                  
+
+                &__logo {                    
+                    color: $white-color;               
+                }
+            }           
+        }
+
+        .icons {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-grow: 1;
+
+            &--links {
+                text-decoration: none;
+                font-size: 22px;
+                color: white;
+            }
+
+        }
+
+        .otherThinks {
+            display: flex;
+            order: 3;
+            flex-direction: column;
+            font-size: 30px;
+        }
+    }
+}
